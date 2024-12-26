@@ -42,7 +42,7 @@ export default function Home() {
         
         description: "Task created successfully",
       });
-    } catch (_) {
+    } catch {
       toast({
         variant: "destructive",
         title: "Error",
@@ -57,7 +57,7 @@ export default function Home() {
       toast({
         description: "Task deleted successfully",
       });
-    } catch (_) {
+    } catch {
       toast({
         variant: "destructive",
         title: "Error",
