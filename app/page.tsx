@@ -29,7 +29,7 @@ export default function Home() {
       setError("Task cannot be empty");
       toast({
         variant: "destructive",
-        title: "Task cannot be empty",
+        title: error,
         description: "Please enter a valid task description",
       });
       return;
